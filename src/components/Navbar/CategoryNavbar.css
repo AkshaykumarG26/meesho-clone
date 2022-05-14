@@ -1,0 +1,92 @@
+.main {
+    position: fixed;
+    margin-top: 5%;
+    width: 100%;
+
+
+}
+
+.sub_main {
+    display: flex;
+    justify-content: space-around;
+    padding-top: 1%;
+    padding-bottom: 3%;
+    border-bottom: 1px solid lightgrey;
+    height: 30px;
+}
+
+.inner:hover {
+    color: rgb(211, 97, 146)
+}
+
+.sub_categories {
+    margin-bottom: 5%;
+    width: auto;
+    font-size: 16px;
+}
+
+.sub_categories:hover {
+    color: rgba(192, 44, 108)
+}
+
+
+
+.displayHover {
+    /* background-color: white; */
+    border-radius: 5px;
+    width: 100%;
+    padding-top: 2%;
+    z-index: 10;
+    margin-left: 1%;
+    padding: 10px 20px 20px;
+    position: absolute;
+    display: none;
+    margin-right: 2%;
+
+
+}
+
+.inner:hover .displayHover {
+    display: block;
+    padding-bottom: 5%;
+    background-color: rgb(247, 247, 247);
+    width: auto;
+    height: 300px;
+    margin-left: -1%;
+    margin-top: 20px;
+    /* display: flex; */
+}
+
+.sub_categories:hover .displayHover {
+    display: block;
+    background-color: rgb(247, 247, 247);
+    padding-bottom: 5%;
+    width: auto;
+    /* height: 300px; */
+    margin-top: 20px;
+    /* margin-left: -16%; */
+    /* display: flex; */
+}
+
+.data {
+    margin-right: 2%;
+    display: inline-block;
+}
+
+.data>h5 {
+    font-size: medium;
+}
+
+.data_2 {
+    margin-right: 3%;
+    display: inline-block;
+}
+
+.data_2>h5 {
+    font-size: medium;
+}
+
+.a-tag {
+    /* color: grey; */
+    text-decoration: none;
+}

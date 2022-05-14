@@ -1,0 +1,69 @@
+.navbar {
+    position: fixed;
+    width: 100%;
+    padding: 0px 50px 10px 50px;
+}
+
+
+
+.dropdown:hover .hover_dropdown {
+    display: block;
+}
+
+.hover_dropdown {
+    background-color: white;
+    border-radius: 5px;
+    width: 220px;
+    /* z-index: 50; */
+    /* margin-left: -40%; */
+    border: 1px solid grey;
+    padding: 10px 20px 20px;
+    position: absolute;
+    display: none;
+    font-size: small;
+}
+
+.hover_dropdown_two {
+    background-color: white;
+    border-radius: 5px;
+    width: 15.5%;
+    z-index: 50;
+    margin-top: 0%;
+    margin-left: -8%;
+    border: 1px solid grey;
+    padding: 10px 20px 20px;
+    position: absolute;
+    display: none;
+    font-size: small;
+}
+
+.hover_dropdown>h5 {
+    color: black
+}
+
+.imgset {
+    width: 100%;
+    margin-top: 5%;
+}
+
+.vertical_line {
+    margin-top: 7%;
+    height: 30px;
+    border: 1px solid grey;
+    background-color: grey;
+}
+
+
+.hr-line {
+    width: 100%;
+    margin-top: 10%;
+    margin-bottom: 10%;
+    border: 1px solid grey;
+    background-color: 1px solid grey;
+}
+
+
+hoverCart:hover{
+    display: none;
+}   
+
