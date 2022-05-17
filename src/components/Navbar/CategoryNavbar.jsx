@@ -12,23 +12,23 @@ export const  CategoryNavbar = () => {
           Women Ethic
           <div className="displayHover">
             <div className="data_2">
-              <h5 style={{ maeginTop: "2%" }}>Top wear</h5>
+              <h5>All Women Ethic</h5>
               <div
                 onClick={() => {
-                  navigate("/Topwear");
+                  navigate("/topwear");
                 }}
               >
-                <a className="a-tag">Dresses</a>
+                <a className="a">View All</a>
               </div>
             </div>
             <div className="data_2">
-              <h5>Bottom Wear</h5>
+              <h5>Sarees</h5>
               <div
                 onClick={() => {
-                  navigate("/Bottomwear");
+                  navigate("/bottomwear");
                 }}
               >
-                <a className="a-tag">Jeans</a>
+                <a className="a">Silk Sarees</a>
               </div>
             </div>
           </div>
@@ -37,103 +37,102 @@ export const  CategoryNavbar = () => {
           Women Western
           <div className="displayHover">
             <div className="data_2">
-              <h5 style={{ maeginTop: "2%" }}>Top wear</h5>
+              <h5>Top wear</h5>
               <div
                 onClick={() => {
-                  navigate("/Topwear");
+                  navigate("/topwear");
                 }}
               >
-                <a className="a-tag">Dresses</a>
+                <a className="a">Dresses</a>
               </div>
             </div>
             <div className="data_2">
               <h5>Bottom Wear</h5>
               <div
                 onClick={() => {
-                  navigate("/Bottomwear");
+                  navigate("/bottomwear");
                 }}
               >
-                <a className="a-tag">Jeans</a>
+                <a className="a">Jeans</a>
               </div>
             </div>
           </div>
         </p>
         <p className="sub_categories">
-          Jewellery & Accessories 
+          Jewellery & Accessories
           <div className="displayHover">
             <div className="data_2">
-              <h5 style={{ maeginTop: "2%" }}>Top wear</h5>
+              <h5>Jewellery</h5>
               <div
                 onClick={() => {
-                  navigate("/Topwear");
+                  navigate("/topwear");
                 }}
               >
-                <a className="a-tag">Dresses</a>
+                <a className="a">Jewellery Set</a>
               </div>
             </div>
             <div className="data_2">
-              <h5>Bottom Wear</h5>
+              <h5>Women Accessory</h5>
               <div
                 onClick={() => {
-                  navigate("/Bottomwear");
+                  navigate("/bottomwear");
                 }}
               >
-                <a className="a-tag">Jeans</a>
+                <a className="a">Bags</a>
               </div>
             </div>
           </div>
         </p>
         <p className="sub_categories">
-          Women Western
+          Men
           <div className="displayHover">
             <div className="data_2">
-              <h5 style={{ maeginTop: "2%" }}>Top wear</h5>
+              <h5>Top wear</h5>
               <div
                 onClick={() => {
-                  navigate("/Topwear");
+                  navigate("/topwear");
                 }}
               >
-                <a className="a-tag">Dresses</a>
+                <a className="a">View All</a>
               </div>
             </div>
             <div className="data_2">
               <h5>Bottom Wear</h5>
               <div
                 onClick={() => {
-                  navigate("/Bottomwear");
+                  navigate("/bottomwear");
                 }}
               >
-                <a className="a-tag">Jeans</a>
+                <a className="a">Track Pants</a>
               </div>
             </div>
           </div>
         </p>
         <p className="sub_categories">
-          Women Western
+          Kids
           <div className="displayHover">
             <div className="data_2">
-              <h5 style={{ maeginTop: "2%" }}>Top wear</h5>
+              <h5>Toys & Accessories</h5>
               <div
                 onClick={() => {
-                  navigate("/Topwear");
+                  navigate("/topwear");
                 }}
               >
-                <a className="a-tag">Dresses</a>
+                <a className="a">Soft Toys</a>
               </div>
             </div>
             <div className="data_2">
-              <h5>Bottom Wear</h5>
+              <h5>Baby Care</h5>
               <div
                 onClick={() => {
-                  navigate("/Bottomwear");
+                  navigate("/bottomwear");
                 }}
               >
-                <a className="a-tag">Jeans</a>
+                <a className="a">All Baby Care</a>
               </div>
             </div>
           </div>
         </p>
-        
       </div>
     </div>
   );

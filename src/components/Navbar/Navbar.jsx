@@ -1,12 +1,15 @@
 import { BsCart4 } from "react-icons/bs";
 import { CgProfile } from "react-icons/cg";
 import { Link } from "react-router-dom";
+import { CategoryNavbar } from "../Navbar/CategoryNavbar";
+
 import "./Navbar.css";
 
 
 export const Navbar = () => {
   return (
     <div
+      onClick={() => window.scroll(0, 0)}
       style={{
         padding: "10px",
         alignContent: "center",
@@ -14,10 +17,16 @@ export const Navbar = () => {
         justifyContent: "space-around",
       }}
     >
-      <nav class="navbar navbar-expand-sm" style={{
-          marginTop: "10px"
-      }}>
-        <div class="container-fluid collapse navbar-collapse">
+      <nav
+        class="navbar navbar-expand-sm"
+        style={{
+          marginTop: "10px",
+        }}
+      >
+        <div
+          class="container-fluid collapse navbar-collapse"
+          onClick={() => window.scroll(0, 0)}
+        >
           {/* <a class="navbar-brand" href="/"></a> */}
           <Link to={"/"}>
             <img
@@ -54,14 +63,11 @@ export const Navbar = () => {
               justifyContent: "space-between",
             }}
           >
-            <div
-              class="mr-auto navbar-nav"
-              id="navbarSupportedContent"
-            >
+            <div class="mr-auto navbar-nav" id="navbarSupportedContent">
               <ul class="navbar-nav  me-auto mb-2 mb-lg-0 ">
                 <li className="nav-item nav-link ">
                   {/* <a class="nav-link active " aria-current="page" href="/"></a> */}
-                  <div className="dropdown ">
+                  <div className="dropdown">
                     Download App
                     <div className="hover_dropdown">
                       <a href="https://play.google.com/store/apps/details?id=com.meesho.supply&pid=pow_website&c=pow">
@@ -85,7 +91,11 @@ export const Navbar = () => {
                   {/* <a class="nav-link" href="/">
                     Become a Suplier
                   </a> */}
-                  <Link className="nav-link" to={"/"}>
+                  <Link
+                    className="nav-link"
+                    to={"/"}
+                    style={{ color: "black" }}
+                  >
                     Become a Suplier
                   </Link>
                 </li>
@@ -112,6 +122,7 @@ export const Navbar = () => {
           </div>
         </div>
       </nav>
+      <CategoryNavbar />
     </div>
   );
 };

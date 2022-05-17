@@ -1,14 +1,17 @@
 .main {
     position: fixed;
-    margin-top: 5%;
+    margin-top: 6%;
     width: 100%;
+    z-index: 20;
+    background-color: white;
 
 
 }
 
 .sub_main {
     display: flex;
-    justify-content: space-around;
+    /* padding: 40px; */
+    justify-content: space-evenly;
     padding-top: 1%;
     padding-bottom: 3%;
     border-bottom: 1px solid lightgrey;
@@ -26,7 +29,7 @@
 }
 
 .sub_categories:hover {
-    color: rgba(192, 44, 108)
+    color: rgb(158, 58, 101)
 }
 
 
@@ -37,11 +40,12 @@
     width: 100%;
     padding-top: 2%;
     z-index: 10;
-    margin-left: 1%;
+    margin-left: -7%;
     padding: 10px 20px 20px;
-    position: absolute;
+    position: relative;
     display: none;
     margin-right: 2%;
+    cursor: pointer;
 
 
 }
@@ -51,10 +55,8 @@
     padding-bottom: 5%;
     background-color: rgb(247, 247, 247);
     width: auto;
-    height: 300px;
     margin-left: -1%;
     margin-top: 20px;
-    /* display: flex; */
 }
 
 .sub_categories:hover .displayHover {
@@ -62,10 +64,6 @@
     background-color: rgb(247, 247, 247);
     padding-bottom: 5%;
     width: auto;
-    /* height: 300px; */
-    margin-top: 20px;
-    /* margin-left: -16%; */
-    /* display: flex; */
 }
 
 .data {
@@ -86,7 +84,6 @@
     font-size: medium;
 }
 
-.a-tag {
-    /* color: grey; */
+.a {
     text-decoration: none;
 }
