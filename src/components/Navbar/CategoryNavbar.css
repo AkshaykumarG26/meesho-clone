@@ -10,10 +10,10 @@
 
 .sub_main {
     display: flex;
-    /* padding: 40px; */
+    padding: 40px;
     justify-content: space-evenly;
     padding-top: 1%;
-    padding-bottom: 3%;
+    /* padding-bottom: 3%; */
     border-bottom: 1px solid lightgrey;
     height: 30px;
 }

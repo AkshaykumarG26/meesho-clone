@@ -21,16 +21,16 @@ export const SingleProduct = ({
           className="poster"
           // src={image}
           src={image ? `${image}` : unavailable}
-          style={{width: "auto", height: "300px"}}
+          style={{ width: "auto", height: "300px" }}
           alt={name}
         />
-        <b className="title">{name}</b>
+        <p className="title">{name}</p>
         <span className="subTitle">
           {/* <span className="subTitle">{fabric}</span>
           <span className="subTitle">{delivery_type}</span>
           <span className="subTitle">{size}</span>
           <span className="subTitle">{pattern}</span>*/}
-          <span className="subTitle">{price}</span>
+          <b className="subTitle">₹{price}</b>
           {/* <span className="subTitle">{category}</span> */}
         </span>
       </div>

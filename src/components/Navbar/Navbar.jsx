@@ -5,24 +5,17 @@ import { CategoryNavbar } from "../Navbar/CategoryNavbar";
 
 import "./Navbar.css";
 
-
 export const Navbar = () => {
   return (
     <div
       onClick={() => window.scroll(0, 0)}
       style={{
-        padding: "10px",
         alignContent: "center",
         display: "flex",
         justifyContent: "space-around",
       }}
     >
-      <nav
-        class="navbar navbar-expand-sm"
-        style={{
-          marginTop: "10px",
-        }}
-      >
+      <nav class="navbar navbar-expand-sm">
         <div
           class="container-fluid collapse navbar-collapse"
           onClick={() => window.scroll(0, 0)}

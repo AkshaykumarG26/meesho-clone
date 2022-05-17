@@ -2,16 +2,18 @@
     margin-top: 5px;
     display: flex;
     flex-direction: column;
-    width: 200px;
-    padding: 5px;
+    /* width: 200px; */
+    width: 250px;
+    padding: 20px;
     margin: 5px 0;
-    background-color: aliceblue;
+    /* background-color: aliceblue; */
     border-radius: 10px;
     position: relative;
 }
 
 .media:hover {
-    background-color: rgb(201, 219, 219);
+    /* background-color: rgb(201, 219, 219); */
+    cursor: pointer;
     color: black;
 }
 
@@ -27,8 +29,9 @@
 
 .title {
     width: 100%;
-    text-align: center;
-    font-size: 17px;
+    /* text-align: center; */
+    /* font-size: 17px; */
+    font-weight: 100;
     padding: 8px 0;
 }
 
